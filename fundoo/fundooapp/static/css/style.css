@@ -1,6 +1,6 @@
 @media(max-width:425px)
 {body{
-    background : url("/static/white15.jpg");
+    background : url("/static/web3.jpg");
     background-size: 1200px;
     min-height: 100%;
     background-position: center;
@@ -33,7 +33,7 @@
 
 }
 body {
-    background : url("/static/white15.jpg") ;
+    background : url("/static/web3.jpg") ;
     background-size: 1200px;
     min-height: 100%;
     background-position: center;
@@ -44,7 +44,7 @@ body, html {height: 100%}
 h3{
     font-family: "Raleway", sans-serif;
     font-size: 20px;
-    color: black;
+    color: white;
     position: absolute;
     right: 30px;
     top: 30px;
@@ -54,7 +54,7 @@ h3{
 h1{
     font-family: "Raleway", sans-serif;
     font-size: 50px;
-    color: black;
+    color: white;
     position: absolute;
     left: 250px;
     top: 150px;

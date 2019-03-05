@@ -17,7 +17,7 @@ DEBUG = True
 
 # AUTH_USER_MODEL = "fundooapp.user"
 
-ALLOWED_HOSTS = ['13.232.251.134']
+ALLOWED_HOSTS = []
 
 
 # Email verification
