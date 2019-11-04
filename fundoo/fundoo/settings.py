@@ -99,17 +99,19 @@ CHANNEL_LAYERS = {
 
 
 # Database
-# https://docs.djangoproject.com/en/2.1/ref/settings/#databases
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'postgres',
+        'USER': 'dbuser@db1237',
         'PASSWORD': '1qazXSW@#EDC',
         'HOST': 'db1237.postgres.database.azure.com',
         'PORT': '5432',
     }
 }
 
-
+# https://docs.djangoproject.com/en/2.1/ref/settings/#databases
 # Password validation
 # https://docs.djangoproject.com/en/2.1/ref/settings/#auth-password-validators
 
