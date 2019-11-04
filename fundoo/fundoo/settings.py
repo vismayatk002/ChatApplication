@@ -110,7 +110,7 @@ DATABASES = {
         'PORT': '5432',
     }
 }
-
+#sagar kadam
 # https://docs.djangoproject.com/en/2.1/ref/settings/#databases
 # https://docs.djangoproject.com/en/2.1/ref/settings/#auth-password-validators
 
