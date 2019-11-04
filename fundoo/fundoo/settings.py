@@ -35,7 +35,7 @@ AUTHENTICATION_BACKENDS = (
 )
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-
+# django sample app
 # django.core.mail.backends.smtp.EmailBackend
 SITE_ID = 1
 
