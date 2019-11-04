@@ -108,7 +108,7 @@ DATABASES = {
         'NAME': 'postgres',
         'USER': 'dbuser',
         'PASSWORD': '1qazXSW@#EDC',
-        'HOST': 'db1237',
+        'HOST': 'db1237.postgres.database.azure.com',
         'PORT': '5432',
     }
 }
