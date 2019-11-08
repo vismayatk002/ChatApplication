@@ -17,6 +17,12 @@ strategy:
     Python37:
       PYTHON_VERSION: '3.7'
   maxParallel: 3
+- task: AzureRmWebAppDeployment@4
+  inputs:
+    ConnectionType: 'AzureRM'
+    appType: 'webApp'
+    WebAppName: 'sagarchat'
+    packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
 
 steps:
 - task: UsePythonVersion@0
