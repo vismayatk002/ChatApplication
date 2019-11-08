@@ -1,8 +1,7 @@
-- task: AzureRmWebAppDeployment@4
+- task: AzureWebApp@1
   inputs:
-    ConnectionType: 'AzureRM'
     azureSubscription: 'Free Trial (5882330e-a3ce-4566-8fdf-bbc120aa088a)'
     appType: 'webAppLinux'
-    WebAppName: 'chatdjango'
-    packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
-    RuntimeStack: 'PYTHON|3.6'
+    appName: 'chatdjango'
+    package: '$(System.DefaultWorkingDirectory)/**/*.zip'
+    runtimeStack: 'PYTHON|3.6'
