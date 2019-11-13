@@ -11,7 +11,7 @@ variables:
   azureServiceConnectionId: '7d845e4c-7c0d-435f-aabd-9fe788fc8ebb'
   
   # Web app name
-  webAppName: 'chatapp'
+  webAppName: 'chatapp-django'
 
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
