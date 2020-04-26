@@ -103,11 +103,11 @@ CHANNEL_LAYERS = {
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'postgres',
-        'USER': 'dbuser@db1237',
-        'PASSWORD': '1qazXSW@#EDC',
-        'HOST': 'db1237.postgres.database.azure.com',
-        'PORT': '5432',
+        'NAME': 'dbname',
+        'USER': 'user',
+        'PASSWORD': 'dsfdsfbdspfus',
+        'HOST': 'endpoint.google.com',
+        'PORT': '1234',
     }
 }
 #sagar kadam
